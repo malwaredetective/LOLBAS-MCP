@@ -3,7 +3,7 @@
 ![MCP Server](https://img.shields.io/badge/MCP-Server-blueviolet)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
-A Model Context Protocol (MCP) server that acts as a bridge between Large Language Models (LLMs) and the [LOLBAS Project API](https://lolbas-project.github.io/), allowing automated queries for living-off-the-land binaries and scripts.  
+A Model Context Protocol (MCP) server that acts as a bridge between Large Language Models (LLMs) and the [LOLBAS Project](https://lolbas-project.github.io/) API, allowing automated queries for living-off-the-land binaries and scripts.  
 
 > This MCP Server is configured to run locally via STDIO.
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ## MCP Tools
 
 ### list_binaries
-Return a list of all binaries/scripts found within the LOLBAS project.
+Return a list of all binaries/scripts found within the LOLBAS API.
 
 ```json
 {
@@ -53,7 +53,7 @@ Return a list of all binaries/scripts found within the LOLBAS project.
 ```
 
 ### list_categories
-Return a list of all unique operational categories within LOLBAS, for example: Download, Execute, Tamper. These categories represent the main techniques or use cases associated with living-off-the-land binaries and scripts.
+Return a list of all unique operational categories within the LOLBAS API, for example: Download, Execute, Tamper. These categories represent the main techniques or use cases associated with living-off-the-land binaries and scripts.
 
 ```json
 {
@@ -63,7 +63,7 @@ Return a list of all unique operational categories within LOLBAS, for example: D
 ```
 
 ### query_file
-Query LOLBAS for a specific binary/script by name.
+Query the LOLBAS API for the details of a specific binary/script by name.
 
 ```json
 {
@@ -81,7 +81,7 @@ Query LOLBAS for a specific binary/script by name.
 ```
 
 ### query_category
-Query LOLBAS for all binaries/scripts that include at least one command in a given category, for example: Download, Execute, Copy.
+Query the LOLBAS API for all binaries/scripts that include at least one command in a given category, for example: Download, Execute, Copy.
 
 ```json
 {
@@ -99,7 +99,7 @@ Query LOLBAS for all binaries/scripts that include at least one command in a giv
 ```
 
 ### refresh_cache
-Refresh your local cache with the latest updates from the LOLBAS project.
+Refresh your local cache with the latest updates from the LOLBAS API.
 
 ```json
 {
