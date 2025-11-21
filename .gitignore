@@ -1,0 +1,52 @@
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+
+# Test, coverage, and profiling output
+*.cover
+coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local settings
+*.local
+.secret
+*.sqlite3

@@ -1,0 +1,14 @@
+// An example code snippit of the local MCP configuration file for this server.
+
+{
+  "mcpServers": {
+    "lolbas-mcp": {
+      "command": "C:\\Users\\malwaredetective\\source\\repos\\LOLBAS-MCP\\venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\Users\\malwaredetective\\source\\repos\\LOLBAS-MCP\\lolbas-mcp-server.py"
+      ],
+      "isActive": true,
+      "approvalPolicy": "always"
+    }
+  }
+}
