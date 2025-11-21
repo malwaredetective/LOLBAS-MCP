@@ -3,6 +3,7 @@
 {
   "mcpServers": {
     "lolbas-mcp": {
+      "description": "A Model Context Protocol (MCP) server that interacts with the LOLBAS Project API: https://lolbas-project.github.io/.",
       "command": "C:\\Users\\malwaredetective\\source\\repos\\LOLBAS-MCP\\venv\\Scripts\\python.exe",
       "args": [
         "C:\\Users\\malwaredetective\\source\\repos\\LOLBAS-MCP\\lolbas-mcp-server.py"
