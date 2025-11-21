@@ -41,6 +41,7 @@ pip install -r requirements.txt
 > Note: When executing the MCP server from within a Python Virtual Environment, the startup command may differ depending on your Operating System.
 
 ## MCP Tools
+For detailed documentation on each tool and example prompt guides to get you started, check the LOLBAS-MCP [Wiki](https://github.com/malwaredetective/LOLBAS-MCP/wiki).
 
 ### list_binaries
 Return a list of all binaries/scripts found within the LOLBAS API.
